@@ -1,0 +1,101 @@
+@charset "utf-8";
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #4286f4;
+    color: White;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+.databox {
+    //margin-left: 0px;
+	//margin-top: 0px;
+	margin-right: 20px;
+	padding-left: 20px;
+}
+#map {
+    height: 400px;
+    width: 400px;
+}
+#PersonList {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#PersonList td, #PersonList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#PersonList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#PersonList tr:nth-child(even){background-color: #f2f2f2;}
+#PersonList tr:hover {color: white; background-color: #4286f4;}
+
+b {
+	color:#0CF;
+}
+
+#HiliteField {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#HiliteField td, #HiliteField th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+
+
+#HiliteField th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#HiliteField td:hover {color: white; background-color: #4286f4;}
+
+</style>
+
